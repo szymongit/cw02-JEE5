@@ -1,0 +1,66 @@
+<html>
+    <title>Rejestracja</title>
+    <meta charset="UTF-8">
+    <body bgcolor="lightblue">
+    <center><br>
+        <br>
+        <h2>Rejestracja</h2>
+        <form action="redirect" method="POST">
+            <table>
+                <tr>
+                    <td>Imię:</td>
+                    <td><input type="text" name="nazwa" value="" /></td>
+                </tr>
+                <tr>
+                    <td>Nazwisko:</td><td><input type="text" name="nazwa" value="" /></td>
+                </tr>
+                <tr>
+                    <td>Wiek:</td>
+                    <td><select name="age">
+                            <option selected>10</option>
+                            <option>15</option>
+                            <option>20</option>
+                            <option>25</option>
+                            <option>30</option>
+                            <option>35</option>
+                            <option>40</option>
+                            <option>45</option>
+                            <option>50</option>
+                            <option>55</option>
+                            <option>60</option>
+                        </select></td>
+                </tr>
+                <tr>
+                    <td>Województwo:</td>
+                    <td>
+                        <select name="woj">
+                            <option>dolnośląskie</option>
+                            <option>kujawsko-pomorskie</option>
+                            <option>lubelskie</option>
+                            <option>lubuskie</option>
+                            <option>łódzkie</option>
+                            <option>małopolskie</option>
+                            <option>mazowieckie</option>
+                            <option>opolskie</option>
+                            <option>podkarpackie</option>
+                            <option>podlaskie</option>
+                            <option>pomorskie</option>
+                            <option>śląskie</option>
+                            <option>świętkorzyskie</option>
+                            <option>warmińsko-mazurskie</option>
+                            <option>wielkopolskie</option>
+                            <option>zachodniopomorskie</option>
+                        </select>
+                    </td>
+                </tr>
+                <td>&nbsp; <input type="checkbox" name="male"
+                                  value="true">Mężczyzna</td>
+                <tr>
+                    <td></td>
+                    <td><input type="submit" value="Zapisz"></td>
+                </tr>
+            </table>
+        </form>
+        <a href="controller">Cofnij</a></center>
+</body>
+</html>
