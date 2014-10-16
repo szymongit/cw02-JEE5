@@ -1,10 +1,11 @@
 <html>
-    <title>Rejestracja</title>
+    <title>Formularz klienta</title>
     <meta charset="UTF-8">
     <body bgcolor="lightblue">
     <center><br>
         <br>
         <h2>Rejestracja</h2>
+        <br>
         <form action="redirect" method="POST">
             <table>
                 <tr>
@@ -31,6 +32,11 @@
                         </select></td>
                 </tr>
                 <tr>
+                    <td>Płeć:</td>
+                    <td><input type="checkbox" name="sex" value="m">Mężczyzna<br/>
+                        <input type="checkbox" name="sex" value="k">Kobieta</td>
+                </tr>
+                <tr>
                     <td>Województwo:</td>
                     <td>
                         <select name="woj">
@@ -53,11 +59,13 @@
                         </select>
                     </td>
                 </tr>
-                <td>&nbsp; <input type="checkbox" name="male"
-                                  value="true">Mężczyzna</td>
+                <tr>
+                    <td colspan="2">&nbsp;</td>
+                </tr>
                 <tr>
                     <td></td>
                     <td><input type="submit" value="Zapisz"></td>
+                    <td></td>
                 </tr>
             </table>
         </form>
